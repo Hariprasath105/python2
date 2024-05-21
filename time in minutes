@@ -1,0 +1,5 @@
+def find time(hour):
+    angle = 30 * hour
+    time = (angle * 2) / 11
+print("The time in minutes")
+find time(3)
