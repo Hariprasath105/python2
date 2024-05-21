@@ -1,0 +1,8 @@
+n = int(input())
+    if n >= 100:
+        last_two_digits = n % 100
+        return last_two_digits
+    else:
+        return 0
+lastdigits = lastdigits(n)
+print("The last two digits of", n, "are:", last_two_digits)
