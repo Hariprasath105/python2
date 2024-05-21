@@ -1,0 +1,6 @@
+a,b,c=input("Enter the length of three sides of triangle : ").split()
+a,b,c=int(a),int(b),int(c)
+if a+b>c and b+c>a and c+a>b:
+    print("Valid triangle")
+else:
+    print("Invalid Triangle")
