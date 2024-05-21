@@ -1,0 +1,17 @@
+a,b=input("Enter two numbers : ").split()
+a,b=int(a),int(b)
+c=int(input("Enter your option : "))
+if c==1:
+    print(f"Addition = {a+b}")
+if c==2:    
+    print(f"Subtraction = {a-b}")
+if c==3:
+    print(f"Multiplication = {a*b}")
+if c==4:  
+    print("Division = {:.2f}".format(a/b))
+if c==5:  
+    print(f"Modulus = {a%b}")
+if c==6: 
+    print(f"Average = {(a+b)/2}")
+if c==7:    
+    print(f"Power = {a**b}")
