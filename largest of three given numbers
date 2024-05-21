@@ -1,0 +1,5 @@
+a=input().split()
+l=[]
+for i in range(3):
+    l.append(int(a[i]))
+print(max(l))
