@@ -1,0 +1,5 @@
+n=input("Integer: ")
+if int(n)>99:
+    print(f"Last two digits: {n[len(n)-2]}{n[len(n)-1]}")
+else:
+    print("The number should be greater than 99")
