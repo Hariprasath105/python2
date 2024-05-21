@@ -1,0 +1,6 @@
+n=int(input("Enter any integer : "))
+s=float(int(sqrt(n)))
+if s==sqrt(n):
+    print("Yes")
+else:
+    print("No")
