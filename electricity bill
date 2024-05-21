@@ -1,0 +1,15 @@
+n=int(input())
+p=0
+if n<200:
+    p-n*1.20
+elif n<400:
+    p=n*1.50
+elif n<600:
+    p=n*1.80
+else:
+    p=n*2.00
+if p>400:
+    p+=p*0.15
+if p<100:
+    p=100
+print("{:.2f}".format(p))
