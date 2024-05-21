@@ -1,0 +1,5 @@
+a,b,c,d=input("Enter rectangle four sides of length : ").split()
+if (a==b and c==d) or (a==d and b==c) or (a==c and b==d):
+    print("Yes")
+else:
+    print("No")
