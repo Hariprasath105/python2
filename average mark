@@ -1,0 +1,17 @@
+m1=input()
+m2=input()
+m3=input()
+t=int(m1+m2+m3)/3
+if(t>=90):
+    print("A grade")
+elif(t>=80):
+     print("B grade")
+elif(t>=70):
+    print("C grade")
+elif(t>=60):
+    print("D grade")
+elif(t>=50):
+    print("E grade")
+elif(t<50):
+    print("F grade")
+        
